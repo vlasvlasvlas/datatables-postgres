@@ -5,7 +5,7 @@
 <script type='text/javascript' language='javascript' src='media/js/jquery.dataTables.js'></script>
 <script type='text/javascript' language='javascript'>
 $(document).ready(function() {
-	var table = $('#example').DataTable({
+	var table = $('#example').dataTable({
 		'processing': true,
 		'paging': true,
 		'pagingType': 'full_numbers', //full
